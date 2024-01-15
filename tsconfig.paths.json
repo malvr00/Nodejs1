@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@src/api/*": ["src/api/*"],
+      "@routes/*": ["src/routes/*"],
+      "@open/routes/*": ["src/routes/open/*"],
+      "@admin/routes/*": ["src/routes/admin/*"],
+      "@test/routes/*": ["src/routes/test/*"]
+    }
+  }
+}
